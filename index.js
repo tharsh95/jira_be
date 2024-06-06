@@ -1,8 +1,9 @@
 import express from "express";
 
+
 const app = express();
 
-app.get("/", async (req, res) => {
+app.get("/jira", async (req, res) => {
   try {
 
     res.status(200).json({ data:"HW" });

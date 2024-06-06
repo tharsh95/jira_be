@@ -8,7 +8,7 @@ const router = express.Router()
 
 router.get("/", async (req, res) => {
     try {
-        const num = 0
+        const num = 55
         const url = `${process.env.JIRA_URL}?startAt=${num}`;
         const auth = btoa(`${process.env.JIRA_USERNAME}:${process.env.JIRA_PASS}`);
         const { data: { issues } } = await axios.get(url, {

@@ -1,9 +1,8 @@
 import express from "express";
-import axios from "axios";
 
 const app = express();
 
-app.get("/jira", async (req, res) => {
+app.get("/", async (req, res) => {
   try {
 
     res.status(200).json({ data:"HW" });

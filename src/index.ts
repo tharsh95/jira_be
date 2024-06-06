@@ -8,7 +8,7 @@ const app = express();
 
 
 app.get("/",(req,res)=>{
-  res.send("<h1>Welcome to Jira issue</h1><a href='http://localhost:8000/issue'>Issues</a>")
+  res.send("<h1>Welcome to Jira issue</h1><a href='https://vercel-indol-rho.vercel.app/issue'>Issues</a>")
 })
 app.use("/issue", IssueRoute)
 app.listen(PORT, () => {

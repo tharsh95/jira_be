@@ -31,7 +31,3 @@ yarn dev
 npm run dev
 ```
 
-### Step 4:Open the browser
-```bash
-Open your browser and navigate to http://localhost:5173.
-```

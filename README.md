@@ -4,10 +4,17 @@
 
 ## Decison 
 ```bash
-1. The backend was developed to integrate the JIRA API, as integrating it directly in the frontend would have exposed the JIRA API token and other sensitive information, also I tried integrating in frontend but encountering a CORS error.
+1. The backend was developed to integrate the JIRA API,
+ as integrating it directly in the frontend would have
+ exposed the JIRA API token and other sensitive information,
+ also I tried integrating in frontend but encountering a CORS error.
 ```
 ```bash
-2. MongoDB was integrated to store the issues in the database. A logic was implemented to fetch issues from the database if they match those from the JIRA API. If new issues are added in JIRA, they are saved in MongoDB and then fetched from the database, without any deduplication of issues.
+2. MongoDB was integrated to store the issues in the database.
+ A logic was implemented to fetch issues from the database
+ if they match those from the JIRA API. If new issues are added in JIRA,
+ they are saved in MongoDB and then fetched from the database,
+ without any deduplication of issues.
 ```
 ## Getting Started
 

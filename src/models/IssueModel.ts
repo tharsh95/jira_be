@@ -5,6 +5,7 @@ const issueSchema = new mongoose.Schema(
     issueKey: {
       type: String,
       required: true,
+      unique:true
     },
     summary: {
       type: String,

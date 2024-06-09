@@ -32,7 +32,7 @@ yarn
 # Using npm
 npm install
 ```
-### Step 3:
+### Step 3: Add env
 ```bash
 Add .env file to the root of the backend directory, Copy the keys from .env.example and fill the desired values
 ```
